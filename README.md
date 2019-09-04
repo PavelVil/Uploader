@@ -25,7 +25,7 @@ Return CREATED status.
   "name" : "fileName"
 }
 ```
-- /api/file (PSOT). Saves the file that came from the form-data body. Returns the ID of the saved file and CREATED status.
+- /api/file (POST). Saves the file that came from the form-data body. Returns the ID of the saved file and CREATED status.
 - /api/share (POST). Share file between users. Accepts an object in the format:
 ```javascript
 {
